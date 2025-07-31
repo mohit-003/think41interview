@@ -1,0 +1,41 @@
+/* ProductDetail.css */
+.product-detail {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-detail h2 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.product-detail p {
+  margin: 0.75rem 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.product-detail strong {
+  color: #111;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #007bff;
+  border: 1px solid #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #007bff;
+  color: white;
+}
